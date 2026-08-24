@@ -1,0 +1,42 @@
+.final-cta {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(150deg, var(--color-primary-dark) 0%, var(--color-primary) 60%, var(--color-accent-deep) 140%);
+  padding: 90px 0;
+}
+
+.final-cta__mist {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  top: -220px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: radial-gradient(circle, rgba(79, 224, 240, 0.22) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.final-cta__inner {
+  position: relative;
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.final-cta__inner h2 {
+  color: #fff;
+  font-size: clamp(26px, 3.8vw, 38px);
+  margin-bottom: 14px;
+}
+
+.final-cta__inner p {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 17px;
+  margin-bottom: 32px;
+}
+
+.final-cta__btn {
+  padding: 17px 34px;
+  font-size: 16px;
+}
