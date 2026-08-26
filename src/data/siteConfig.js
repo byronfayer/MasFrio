@@ -13,16 +13,16 @@ export const contact = {
   whatsappNumber: "5493515093520",
   whatsappDisplay: "+54 9 351 509-3520",
   phone: "351 509-3520",
-  address: "[COMPLETAR — dirección del taller/local]",
+  address: "Los Chañares 5220, Barrio Los Chañares, Córdoba",
   zone: "Córdoba Capital y alrededores",
   hours: [
-    { day: "Lunes a Viernes", hours: "[COMPLETAR] hs" },
-    { day: "Sábados", hours: "[COMPLETAR] hs" },
+    { day: "Lunes a Viernes", hours: " 8 a 18 hs" },
+    { day: "Sábados", hours: " 9 a 14 hs" },
     { day: "Domingos", hours: "Cerrado" },
   ],
   instagram: "https://www.instagram.com/gl_refrigeracion_cordoba?igsh=MWd0eWhtYjZqa2ttMw==",
   facebook: "https://www.facebook.com/share/192Z3nVPYw/",
-  googleMaps: "https://maps.google.com/?q=[COMPLETAR]",
+  googleMaps: "https://www.google.com/maps/place/REFRIGERACION+CORDOBA+%2BFRIO/@-31.4605992,-64.0991212,17z/data=!4m6!3m5!1s0x9432bdaf050590b1:0xd99f3b1c90c739f2!8m2!3d-31.4606724!4d-64.098059!16s%2Fg%2F11nv9tqxx3?hl=es-ES",
   email: "[COMPLETAR]@refrigeracioncordoba.com",
 };
 
@@ -40,6 +40,7 @@ export const whatsappLink = (context = "") =>
 export const navLinks = [
   { label: "Inicio", href: "#inicio" },
   { label: "Servicios", href: "#servicios" },
+  { label: "Novedades", href: "#novedades" },
   { label: "Nosotros", href: "#nosotros" },
   { label: "Trabajos", href: "#trabajos" },
   { label: "Contacto", href: "#contacto" },

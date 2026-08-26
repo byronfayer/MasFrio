@@ -95,9 +95,14 @@ export default function Contact() {
           </a>
         </div>
 
-        <div className="contact-map">
-          <Icon name="map" size={22} />
-          <span>Mapa de ubicación — [COMPLETAR: insertar Google Maps embed]</span>
+        <div className="contact-map-embed">
+          <iframe
+            title="Ubicación en Google Maps"
+            src="https://maps.google.com/maps?q=Los%20Cha%C3%B1ares%205220%2C%20C%C3%B3rdoba&z=16&output=embed"
+            loading="lazy"
+            allowFullScreen
+            referrerPolicy="no-referrer-when-downgrade"
+          />
         </div>
       </div>
     </section>

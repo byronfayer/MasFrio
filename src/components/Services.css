@@ -1,3 +1,51 @@
+.services-section {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.services-section__bg {
+  position: absolute;
+  inset: -20px;
+  background-size: cover;
+  background-position: center;
+  filter: blur(6px) saturate(1.05);
+  transform: scale(1.05);
+  z-index: -2;
+}
+
+.services-section__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    160deg,
+    rgba(6, 51, 73, 0.93) 0%,
+    rgba(10, 74, 104, 0.88) 55%,
+    rgba(14, 147, 171, 0.82) 100%
+  );
+  z-index: -1;
+}
+
+.services-section__content {
+  position: relative;
+}
+
+.services-section .section-head p:not(.eyebrow) {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.services-section .section-head h2 {
+  color: #fff;
+}
+
+.services-section .eyebrow {
+  color: var(--color-accent-soft);
+}
+
+.services-section .eyebrow::before {
+  background: var(--color-accent-soft);
+}
+
 .services-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

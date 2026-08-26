@@ -90,6 +90,21 @@ const paths = {
     </>
   ),
   check: <path d="M4 12l5 5L20 6" />,
+  trash: (
+    <>
+      <path d="M4 7h16" />
+      <path d="M9 7V4h6v3" />
+      <path d="M6 7l1 13h10l1-13" />
+      <line x1="10" y1="11" x2="10" y2="17" />
+      <line x1="14" y1="11" x2="14" y2="17" />
+    </>
+  ),
+  edit: (
+    <>
+      <path d="M4 20h4L18.5 9.5a2.1 2.1 0 0 0-3-3L5 17v3z" />
+      <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
+    </>
+  ),
   arrow: <path d="M5 12h13M13 6l6 6-6 6" />,
   mail: (
     <>

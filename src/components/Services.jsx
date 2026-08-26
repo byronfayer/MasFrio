@@ -1,6 +1,7 @@
 import { services } from "../data/siteConfig";
 import Icon from "./Icon";
 import useReveal from "../hooks/useReveal";
+import servicesBg from "../assets/services-bg-placeholder.jpg";
 import "./Services.css";
 
 function ServiceCard({ service, index }) {
@@ -22,8 +23,19 @@ function ServiceCard({ service, index }) {
 
 export default function Services() {
   return (
-    <section id="servicios" className="section">
-      <div className="container">
+    <section id="servicios" className="section services-section">
+      {/*
+        Fondo ambiental — reemplazar servicesBg (src/assets/services-bg-placeholder.jpg)
+        por una foto real del técnico trabajando. Mismo nombre de archivo = sin tocar código.
+      */}
+      <div
+        className="services-section__bg"
+        style={{ backgroundImage: `url(${servicesBg})` }}
+        aria-hidden="true"
+      />
+      <div className="services-section__overlay" aria-hidden="true" />
+
+      <div className="container services-section__content">
         <div className="section-head center">
           <p className="eyebrow" style={{ justifyContent: "center" }}>
             Nuestros servicios
