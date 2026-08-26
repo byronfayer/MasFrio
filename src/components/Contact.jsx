@@ -98,7 +98,7 @@ export default function Contact() {
         <div className="contact-map-embed">
           <iframe
             title="Ubicación en Google Maps"
-            src="https://maps.google.com/maps?q=Los%20Cha%C3%B1ares%205220%2C%20C%C3%B3rdoba&z=16&output=embed"
+            src="https://maps.google.com/maps?q=-31.4606724,-64.098059&z=17&output=embed"
             loading="lazy"
             allowFullScreen
             referrerPolicy="no-referrer-when-downgrade"
