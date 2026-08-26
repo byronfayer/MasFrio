@@ -4,7 +4,7 @@
 // ============================================================
 
 export const company = {
-  name: "Refrigeración Más Frío",
+  name: "Refrigeración Cordoba +Frío",
   alsoKnownAs: "Refrigeración Córdoba",
   tagline: "Soluciones en refrigeración para hogares y empresas",
 };
