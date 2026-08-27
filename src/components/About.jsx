@@ -1,5 +1,5 @@
 import { company } from "../data/siteConfig";
-import logo from "../assets/logo-mas-frio.jpg";
+import equipo from "../assets/equipo.jpg";
 import useReveal from "../hooks/useReveal";
 import "./About.css";
 
@@ -10,7 +10,7 @@ export default function About() {
       <div className="container about__inner">
         <div className="about__visual reveal" ref={ref}>
           <div className="about__frame">
-            <img src={logo} alt={company.name} className="about__frame-img" />
+            <img src={equipo} alt={`Equipo de ${company.name}`} className="about__frame-img" />
           </div>
           <div className="about__dot about__dot--a" />
           <div className="about__dot about__dot--b" />
