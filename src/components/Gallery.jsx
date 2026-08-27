@@ -1,7 +1,10 @@
 import { galleryPlaceholders } from "../data/siteConfig";
-import Icon from "./Icon";
 import useReveal from "../hooks/useReveal";
 import "./Gallery.css";
+
+// Import estático de cada foto real (Vite las resuelve y optimiza el bundle)
+const images = import.meta.glob("../assets/*.jpg", { eager: true, import: "default" });
+const getImage = (filename) => images[`../assets/${filename}`];
 
 export default function Gallery() {
   return (
@@ -12,10 +15,7 @@ export default function Gallery() {
             Nuestros trabajos
           </p>
           <h2>Instalaciones, reparaciones y equipos en acción</h2>
-          <p>
-            Espacio reservado para fotos reales del taller y de los trabajos
-            realizados. Por ahora se muestran como referencia visual.
-          </p>
+          <p>Fotos reales del taller y de los trabajos realizados.</p>
         </div>
 
         <div className="gallery-grid">
@@ -28,9 +28,8 @@ export default function Gallery() {
                 className="gallery-item reveal"
                 style={{ transitionDelay: `${i * 60}ms` }}
               >
-                <Icon name="snowflake" size={28} strokeWidth={1.4} />
-                <span>{item.label}</span>
-                <small>Foto próximamente</small>
+                <img src={getImage(item.image)} alt={item.label} loading="lazy" />
+                <span className="gallery-item__caption">{item.label}</span>
               </div>
             );
           })}

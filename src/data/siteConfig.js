@@ -4,9 +4,9 @@
 // ============================================================
 
 export const company = {
-  name: "Refrigeración Cordoba +Frío",
+  name: "Refrigeración Más Frío",
   alsoKnownAs: "Refrigeración Córdoba",
-  tagline: "SOLUCIONES EN REFRIGERACION Y CLIMATIZACION",
+  tagline: "Soluciones en refrigeración para hogares y empresas",
 };
 
 export const contact = {
@@ -16,8 +16,8 @@ export const contact = {
   address: "Los Chañares 5220, Barrio Los Chañares, Córdoba",
   zone: "Córdoba Capital y alrededores",
   hours: [
-    { day: "Lunes a Viernes", hours: " 8 a 18 hs" },
-    { day: "Sábados", hours: " 9 a 14 hs" },
+    { day: "Lunes a Viernes", hours: "8 a 18 hs" },
+    { day: "Sábados", hours: "9 a 14 hs" },
     { day: "Domingos", hours: "Cerrado" },
   ],
   instagram: "https://www.instagram.com/gl_refrigeracion_cordoba?igsh=MWd0eWhtYjZqa2ttMw==",
@@ -110,10 +110,10 @@ export const whyUs = [
 
 // Galería de trabajos — reemplazar por fotos reales del taller y trabajos realizados
 export const galleryPlaceholders = [
-  { label: "Taller" },
-  { label: "Instalación de aire acondicionado" },
-  { label: "Cámara frigorífica" },
-  { label: "Mantenimiento de heladera" },
-  { label: "Reparación de lavarropas" },
-  { label: "Trabajo para empresa" },
+  { label: "Taller", image: "taller.jpg" },
+  { label: "Instalación de aire acondicionado", image: "instalacion-aire.jpg" },
+  { label: "Cámara frigorífica", image: "camara-frigorifica.jpg" },
+  { label: "Mantenimiento de heladera", image: "mantenimiento-heladera.jpg" },
+  { label: "Reparación de lavarropas", image: "reparacion-lavarropas.jpg" },
+  { label: "Trabajo para empresa", image: "servicio-empresas.jpg" },
 ];
