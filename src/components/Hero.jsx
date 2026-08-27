@@ -14,8 +14,7 @@ export default function Hero() {
         <div className="hero__copy">
           <p className="eyebrow">Empresa familiar de Córdoba</p>
           <h1>
-            Soluciones en <span className="hero__accent">refrigeración</span> para
-            hogares y empresas
+            SOLUCIONES EN <span className="hero__accent">REFRIGERACION Y CLIMATIZACION</span> 
           </h1>
           <p className="hero__desc">
             Instalación, reparación, mantenimiento y venta de equipos de
