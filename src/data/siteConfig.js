@@ -13,7 +13,7 @@ export const contact = {
   whatsappNumber: "5493515093520",
   whatsappDisplay: "+54 9 351 509-3520",
   phone: "351 509-3520",
-  address: "Los Chañares 5220, Barrio Los Chañares, Córdoba",
+  address: "Los Chañares 5220, Barrio Los Sauces, Córdoba",
   zone: "Córdoba Capital y alrededores",
   hours: [
     { day: "Lunes a Viernes", hours: "8 a 18 hs" },
