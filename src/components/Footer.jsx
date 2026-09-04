@@ -41,6 +41,10 @@ export default function Footer() {
         <span>© {new Date().getFullYear()} {company.name}. Todos los derechos reservados.</span>
         <span>{contact.zone}</span>
       </div>
+
+      <div className="footer__credit container">
+        Programada y diseñada por <span>Byron Nie</span>
+      </div>
     </footer>
   );
 }
